@@ -1,0 +1,78 @@
+.container {
+    height: 80px;
+    background-color: lightskyblue;
+}
+
+.edit_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    max-height: 75%;
+    padding-top:10px ;
+}
+
+p {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3{text-align: center;
+    color: white;
+    background-color: lightskyblue;
+}
+
+.buttons{
+    margin-top: 30px;
+    width: 40%;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    grid-gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.tile {
+    width: 400px;
+    height: 400px;
+    padding: auto;
+    text-align: center;
+    background: whitesmoke;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.tile h5{
+    font-size: 20px;
+    line-height: 40%;
+    padding-top: 10%;
+}
+
+.tile:hover{
+    background: lightsalmon;
+    cursor: pointer;
+}
+
+.edit_prod {
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    max-height: 60%;
+    padding-bottom: 30px;
+}
